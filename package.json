@@ -1,0 +1,26 @@
+{
+  "name": "bookshop-api",
+  "version": "1.0.0",
+  "description": "api for henri bookshop",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hjumeau/bookshop-api.git"
+  },
+  "author": "harry.jumeau@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hjumeau/bookshop-api/issues"
+  },
+  "homepage": "https://github.com/hjumeau/bookshop-api#readme",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "express": "^4.12.4"
+  }
+}
