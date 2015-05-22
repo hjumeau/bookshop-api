@@ -30,7 +30,7 @@ router.get('/-books', function(req, res) {
 router.get('/-offers/:isbns', function(req, res) {
 
   var path = base + req.params.isbns.replace(/'/g, '') + '/commercialOffers';
-  console.log(path);
+
   var send = function(apiResponse) {
     var buf = '';
     console.log("Got response: " + apiResponse.statusCode);

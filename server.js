@@ -12,6 +12,10 @@ app.get('/',function(req, res) {
 
 app.use('/api', api);
 
+app.all('*', function(req, res){
+	res.redirect('/');
+});
+
 // spin up server
 app.listen(app.get('port'), function(){
     console.log("Express server listening on port " + app.get('port'));
